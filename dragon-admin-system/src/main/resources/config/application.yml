@@ -19,3 +19,5 @@ task:
     keep-alive-seconds: 60
     # 队列容量
     queue-capacity: 50
+    # 线程名前缀
+    thread-name-prefix: dragontest-thread-

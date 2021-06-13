@@ -55,6 +55,5 @@ public class LogServiceImpl extends ServiceImpl<LogMapper, LogModel> implements 
     @Override
     public void save(String username, String browser, String ip, ProceedingJoinPoint joinPoint, LogModel logModel) {
         log.debug("username: {}, browser: {}, ip: {}, joinPoint: {}, logModel: {}", username, browser, ip, joinPoint, JSONUtil.toJsonStr(logModel));
-        int sum = 4/0;
     }
 }

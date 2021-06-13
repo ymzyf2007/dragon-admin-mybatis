@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @ComponentScan(basePackages = { "com.dragon" })
-@MapperScan(basePackages = { "com.dragon.system.mapper", "com.dragon.logging.mapper" })
+@MapperScan(basePackages = { "com.dragon.system.mapper", "com.dragon.system.quartz.mapper", "com.dragon.logging.mapper" })
 public class DragonAdminApplication {
 
 	public static void main(String[] args) {
