@@ -16,6 +16,8 @@ import java.io.Serializable;
 public class QuartzJobModel extends BaseModel<QuartzJobModel> implements Serializable {
     private static final long serialVersionUID = 7247088141083039713L;
 
+    public static final String JOB_KEY = "JOB_KEY";
+
     @TableId(value = "job_id", type = IdType.AUTO)
     private Long id;
     /**
